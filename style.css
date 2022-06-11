@@ -1,13 +1,33 @@
-section{
+section {
     align-items: center;
     font-style: normal;
-    font-family: 'multi',sans-serif;
+    font-family: 'multi', sans-serif;
 
 }
+
 h1 {
     color: black;
     text-align: center;
 }
-p{
+
+p {
+    color: black;
     text-align: center;
+}
+
+button {
+    justify-content:center ;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: rgba(44, 29, 29, 0.308);
 }

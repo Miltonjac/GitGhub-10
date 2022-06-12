@@ -1,3 +1,6 @@
+body{
+    background-color: beige;
+}
 section {
     align-items: center;
     font-style: normal;
@@ -16,6 +19,7 @@ p {
 }
 
 button {
+    background-color:antiquewhite ;
     justify-content:center ;
     padding: 15px 25px;
     text-decoration: none;
@@ -28,6 +32,6 @@ button {
 }
 
 button:hover{
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     background-color: rgba(44, 29, 29, 0.308);
 }
